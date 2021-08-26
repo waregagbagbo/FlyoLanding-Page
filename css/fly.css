@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color:hsl(218, 28%, 13%);  
+    font-size:14px;
+    font-family:Open Sans; 
+    font-weight: 400,700px;
+    padding:30px;
+    align-items:center;
+}
+.navbar{
+    line-height:20px;
+}
+
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration: none!important;
+}
+nav{
+    float:right;
+    padding:30px;
+    color:#fff;
+    font-size:auto;
+    cursor:pointer; 
+        
+    
+}
+nav ul li{
+    display:inline;
+    justify-content:space-between;
+    padding:20px;
+
+}
+nav ul li a{    
+    font-family:Raleway;
+    color:#fff;
+    font-weight:400,700;
+    cursor: pointer;
+    justify-content:space-between;
+
+}
+.navbar img{
+    width:10%;
+    height:auto;
+}
+.active{
+    color:brown;
+    font-weight:bold;
+}
+.file-container{
+    text-align:center;
+    position:relative;
+    margin:40px;    
+}
+.file-container img{
+    width:40%;
+
+}
+.major{
+    display:block;
+    text-align:center;
+}
+.parent{
+    font-size:25px;
+    color:#fff;
+    margin-bottom:30px;
+    
+}
+.major p{
+    color:#fff;
+}
+button{
+    
+    padding:10px 20px;
+    border-radius:30px;
+    background-color:hsl(176, 68%, 64%);
+    text-decoration:none;
+    color:#fff;
+    line-height:10px;
+
+}
+.wrapper {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    padding: 50px;
+}
+.one {
+    height: 200px;
+    float: left;
+
+}
+.two {
+    margin-left:50%;
+    height: 200px;
+    
+}
+.wrapper h2{
+    color:#fff;
+}
+.wrapper p{
+    color:#fff;
+}
+.wrap{
+    display:flex;
+    padding:0px 20px 0px 30px;
+
+}
+aside{
+    padding:50px;
+    display: block;
+    position:relative;
+    color:#fff;
+    
+}
+.img{
+    display:inline;
+}
+aside h3{
+    margin-top:20px;
+    display:inline;
+}
+aside a{
+    color:hsl(176, 68%, 64%);
+}
+.row-5{
+    margin-left: 50px;
+    display:flex;
+}
+.col-4{
+    height:200px;
+    float:left;
+    border:1px solid;
+    border-radius:12px;
+    padding:15px;
+    color:#fff;
+    margin:10px;
+    margin-right:10px;
+    background-color:hsl(219, 30%, 18%);
+}
+.part-one{
+    padding:10px;
+    margin-bottom:10px;
+}
+.small-image{
+    padding:10px;
+}
+.small-image img{
+    border-radius:50%;
+}
+.small-image p{
+    display:block;
+    margin-right:10px;
+}
+.access{
+    height:400px;
+    display:lock;
+    position:relative;
+}
+footer{
+    background-color:hsl(216, 53%, 9%);
+    width:100%;
+    fill: hsl(216, 53%, 9%);
+}
+.col-3{
+    display:inline-block;
+    position:relative;
+    padding:10px;
+    margin-right:10px;
+}
+.logo2{
+    width:100%;
+}
+.description{
+    display:flex;
+    position:relative;
+    padding:10px;    
+}
+.description img{
+    width:40;
+}
